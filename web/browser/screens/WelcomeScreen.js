@@ -3,6 +3,9 @@ import { ImageBackground,StyleSheet } from 'react-native';
 
 function WelcomeScreen(props) {
     return (
+            <ImageBackground 
+            style={{ alignSelf: 'center',width: 400, height: 400,}}
+            source={require("../assets/logo-icon.png")}></ImageBackground>
         <div>
             <Text>Home Screen</Text>
         </div>
@@ -12,7 +15,6 @@ function WelcomeScreen(props) {
 const styles = StyleSheet.create({
     background:{
         flex:1,
-
     },
     
 })

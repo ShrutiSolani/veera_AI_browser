@@ -1,4 +1,7 @@
 from django.shortcuts import render
+from rest_framework.response import Response 
+from rest_framework.decorators import api_view 
+
 from django.http import HttpResponse
 from serpapi import GoogleSearch
 # import serpapi
@@ -33,4 +36,3 @@ def consolidate_text(organic_results):
         print(result.keys())
         # whole_summary = whole_summary + result.get('snippet')
     print(whole_summary)
-
