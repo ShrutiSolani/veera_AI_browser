@@ -7,3 +7,9 @@ export default function App() {
 //  return <WelcomeScreen/>;
 return <SearchBar/>;
 }
+
+import SearchPage from './screens/SearchPage';
+
+export default function App() {
+  return <SearchPage/>;
+}

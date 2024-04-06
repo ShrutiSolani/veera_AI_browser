@@ -6,7 +6,9 @@ function WelcomeScreen(props) {
             <ImageBackground 
             style={{ alignSelf: 'center',width: 400, height: 400,}}
             source={require("../assets/logo-icon.png")}></ImageBackground>
-
+        <div>
+            <Text>Home Screen</Text>
+        </div>
     );
 }
 
